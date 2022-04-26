@@ -1,0 +1,15 @@
+{
+  "username_min_length" : 4,
+  "password_min_length": 4,
+  "username_max_length" : 100,
+  "password_max_length": 30,
+  "invalid_login_limit_attempts" : 10,
+  "empty_username_field_error_msg" : "The identity field is required",
+  "empty_password_field_error_msg" : "The password field is required",
+  "too_short_username_error_msg" : "The identity field must be at least 4 characters",
+  "too_short_password_error_msg" : "The password field must be at least 4 characters",
+  "too_long_username_error_msg" : "The identity field may not be greater than 100 characters",
+  "too_long_password_error_msg" : "The password field may not be greater than 30 characters",
+  "non_existing_data_popup_error_msg" : "Could not login with the details provided",
+  "invalid_login_limit_popup_error_msg" : "Unsuccessful login attempts exceeded: Try again in 15 minutes"
+}
